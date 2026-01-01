@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Custom Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fix for large background issues */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* min-h-screen এর সঠিক CSS রূপ */
+  background-color: var(--fallback-b1, oklch(var(--b1)));
+}
