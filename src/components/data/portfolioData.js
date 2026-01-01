@@ -40,16 +40,7 @@ export const projectsData = [
         githubLink: "https://github.com/AhnafSaad/Bizcart-Superstore.git",
         liveLink: null
     },
-    {
-        title: "Portfolio (Demo)",
-        techStack: "React.js, Tailwind CSS, Daisy UI",
-        description: [
-            "This is the current portfolio you are viewing, built using modern web technologies.",
-            "Features include Dark Mode toggle, responsive design, and conditional link rendering."
-        ],
-        githubLink: "#",
-        liveLink: "https://your-portfolio-live-link.com" 
-    }
+   
 ];
 
 export const educationData = {
