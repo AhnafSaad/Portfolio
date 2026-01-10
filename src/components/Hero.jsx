@@ -1,5 +1,6 @@
 import { AcademicCapIcon, MapPinIcon } from "@heroicons/react/24/solid";
 import { personalInfo } from "./data/portfolioData";
+import TypeWriter from "./TypeWriter";
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
             </div>
         )}
         <div className="max-w-4xl">
-          <h1 className="text-5xl md:text-7xl font-black text-white transition-all duration-700 drop-shadow-lg">{personalInfo.name}</h1>
+          <h1 className="text-5xl md:text-7xl font-black text-white transition-all duration-700 drop-shadow-lg"><TypeWriter text={personalInfo.name} speed={50} /></h1>
           <p className="py-4 text-2xl font-bold text-cyan-300">{personalInfo.title}</p>
           <div className="flex justify-center lg:justify-start space-x-6 mb-8 text-lg font-semibold text-slate-200">
             <div className="flex items-center space-x-1"><AcademicCapIcon className="w-5 h-5 text-cyan-400" /><span>Software Engineering Student</span></div>
