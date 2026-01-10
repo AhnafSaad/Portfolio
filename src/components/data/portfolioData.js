@@ -59,3 +59,27 @@ export const additionalInfo = {
     softSkills: "Problem Solving, Adaptability (Quick Learner), Team Collaboration",
     languages: "Bengali (Native), English (Professional Working Proficiency)"
 };
+
+export const activitiesData = [
+    {
+        title: "Real Madrid CF - Los Blancos The White",
+        role: "Admin & Event Manager",
+        period: "Community Leadership",
+        description: "Managed a large online fan community and successfully organized physical 'Get Together' events. Responsible for community engagement, event planning, and coordinating with team members.",
+        link: null
+    },
+    {
+        title: "CUET Hackathon",
+        role: "Participant (Team Data Doirgha)",
+        period: "Competitive Programming",
+        description: "Collaborated with 'Team Data Doirgha' to solve complex problems under tight deadlines. Demonstrated strong teamwork and adaptability in a high-pressure environment.",
+        link: null
+    },
+    {
+        title: "Software Engineering Club, DIU",
+        role: "Former General Member",
+        period: "University Club",
+        description: "Actively participated in club activities, tech workshops, and collaborated with peers to organize departmental events.",
+        link: null
+    }
+];

@@ -1,3 +1,4 @@
+import Activities from "./components/Activities";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -21,6 +22,8 @@ function App() {
         <Skills />
         <div className="divider"></div>
         <Projects />
+        <div className="divider"></div>
+        <Activities />
         <div className="divider"></div>
         <Education />
       </main>
