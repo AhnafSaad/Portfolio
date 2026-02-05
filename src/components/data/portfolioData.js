@@ -47,7 +47,7 @@ export const educationData = {
     degree: "B.Sc. in Software Engineering",
     university: "Daffodil International University",
     cgpa: "3.19/4.00",
-    duration: "Jan 2022-Dec 2025 (Expected)",
+    duration: "Jan 2022-Dec 2025",
     coursework: "Web Engineering, Database Management Systems, System Analysis"
 };
 
