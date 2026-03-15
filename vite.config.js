@@ -5,6 +5,6 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss(), // এটি যুক্ত করুন
-  ],
+    tailwindcss()
+  ]
 })
